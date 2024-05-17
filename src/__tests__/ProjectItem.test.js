@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import ProjectItem from "../components/ProjectItem";
 
-const project = {
+const project = { 
   id: 1,
   name: "Reciplease",
   about: "A recipe tracking app",
